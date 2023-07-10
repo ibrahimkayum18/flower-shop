@@ -112,5 +112,31 @@ body{
     text-align: center;
     width: 917px;
     margin: auto;
+    margin-bottom: 100px;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+    background-color: rgba(229, 84, 115, 0.2);
+    height: 190px;
+}
+.offer-text{
+    text-align: center;
+    margin-left: 100px;
+}
+.offer-text h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.offer-text .p{
+    margin-bottom: 20px;
+}
+.offer-img{
+    margin-right: 100px;
+}
+.offer-img img{
+    width: 250px;
 }
 
