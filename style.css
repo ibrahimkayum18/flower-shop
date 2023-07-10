@@ -5,10 +5,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-main{
-    width: 80%;
-}
-
 .header-info{
     height: 600px;
     background-color: rgba(251, 5, 58, 0.2);
@@ -39,4 +35,69 @@ main{
 .header-img{
     margin-top: 25px;
     margin-right: 100px;
+}
+.container{
+    height: 1000px;
+    margin-top: 100px;
+}
+.feature{
+    text-align: center; 
+    margin-bottom: 40px;  
+}
+.feature >h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.feature>p{
+    margin-bottom: 10px;
+}
+.flower-tree{
+/* width: 80%; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.flower-tree img{ 
+    width: 220px;
+    padding: 30px;
+    
+} 
+.flower-tree .box-1 img{
+    margin-top: 40px;
+}
+.flower-tree .box-2 img{
+    margin-top: 60px;
+}
+.flower-tree .box-3 img{
+    margin-top: 15px;
+}
+.flower-tree .box-2 p{
+    margin-top: 65px;
+}
+.flower-tree .box p{
+    text-decoration: underline;
+    color: blue;
+}
+
+.box{
+    background-color: rgba(167, 33, 98, 0.15);
+    height: 375px;
+    width: 325px;
+    border-radius: 300px 300px 0px 0px;
+}
+.box-1{
+    margin-left: 155px;
+    
+}
+.box-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    margin-left: 0px;
+}
+.box-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    /* display: flex; */
+    margin-right: 155px;
 }
