@@ -37,7 +37,7 @@ body{
     margin-right: 100px;
 }
 .container{
-    height: 1000px;
+    /* height: 1000px; */
     margin-top: 100px;
 }
 .feature{
@@ -59,6 +59,7 @@ body{
     /* align-items: center; */
     text-align: center;
     /* margin-top: 30px; */
+    /* margin-bottom: 50px; */
 }
 .flower-tree img{ 
     width: 220px;
@@ -87,6 +88,7 @@ body{
     height: 375px;
     width: 325px;
     border-radius: 300px 300px 0px 0px;
+    margin-bottom: 170px;
 }
 .box-1{
     margin-left: 155px;
@@ -101,3 +103,14 @@ body{
     /* display: flex; */
     margin-right: 155px;
 }
+.bonus{
+    display: flex;
+    margin-top: 150px;
+    background-color: #ddd;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+    width: 917px;
+    margin: auto;
+}
+
