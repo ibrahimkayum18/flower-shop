@@ -267,6 +267,7 @@ body{
 .branch-description{
     align-items: center;
     padding-top: 50px;
+    padding-right: 50px;
 }
 .branch-description h3{
     font-size: 40px;
