@@ -10,7 +10,7 @@ body{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     /* width: 100%; */
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .header-text >h3{
@@ -174,12 +174,14 @@ body{
 .flower img{
     width: 280px;
     height: 320px;
-    margin: 13px;
+    margin: 15px;
 }
 .flower{
     display: flex;
     justify-content: center;
     margin-bottom: 128px;
+    width: 80%;
+    margin: auto;
 }
 .subscribe-sec{
     height: 500px;
