@@ -12,23 +12,40 @@ body{
     align-items: center;
     box-shadow: 0px 10px 15px rgba(28, 27, 28, 0.2) ;
 }
+.but-1{
+    margin-left: 30px;
+}
+.bar{
+    font-size: 50px;
+    color: #E55473;
+}
 .nav img{
     width: 60px;
     margin-top: 5px;
 }
-.nav .menu{
-    
-}
 .nav ul{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .nav ul li{
     list-style: none;
+    /* border: 1px solid rgb(214, 170, 170);
+    margin: 10px;
+    background-color: aquamarine ;
+    padding: 15px 20px;
+    border-radius: 5px; */
+    /* ;
+    margin: 10px;
+    align-items: center;
+    background-color: rgb(242, 190, 236);
+    border-radius: 8px; */
 }
 .nav ul li a{
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 10px 20px;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 .header-info{
