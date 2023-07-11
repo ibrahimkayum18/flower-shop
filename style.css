@@ -6,11 +6,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .header-info{
-    height: 600px;
+    height: 750px;
     background-color: rgba(251, 5, 58, 0.2);
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    /* width: 100%; */
+    justify-content: space-between;
     align-items: center;
 }
 .header-text >h3{
@@ -24,7 +24,7 @@ body{
     margin-bottom: 20px;
 }
 .button-primary{
-    padding: 15px 20px;
+    padding: 15px 30px;
     background-color: #E55473;
     border-radius: 8px;
     color: white;
@@ -33,8 +33,10 @@ body{
     margin-left: 100px;
 }
 .header-img{
-    margin-top: 25px;
-    margin-right: 100px;
+    margin-top: 63px;
+    /* margin-right: 100px; */
+    border: 1px solid rgba(253, 252, 252,0.0);
+    
 }
 .container{
     /* height: 1000px; */
