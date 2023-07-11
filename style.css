@@ -28,6 +28,7 @@ body{
     background-color: #E55473;
     border-radius: 8px;
     color: white;
+    border: 1px solid #E55473;
 }
 .header-text{
     margin-left: 100px;
@@ -174,5 +175,46 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 128px;
+}
+.subscribe-sec{
+    height: 500px;
+    background-image: url("./Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80%;
+    margin: auto;
+}
+.in-type{
+    padding: 15px;
+    width: 500px;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: left;
+}
+.in-text{
+    text-align: center;
+    padding-top: 170px;   
+}
+.in-text h2{
+    font: 40px sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.in-text p{
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+.footer h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.footer .p{
+    margin-bottom: 20px;
 }
 
