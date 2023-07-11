@@ -7,7 +7,7 @@ body{
 }
 .header-info{
     height: 750px;
-    background-color: rgba(251, 5, 58, 0.2);
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     /* width: 100%; */
     justify-content: space-between;
@@ -113,6 +113,7 @@ body{
     margin-right: 155px;
 }
 .bonus{
+    margin-top: 128px;
     border: 1px solid white;
     display: flex;
     margin-top: 150px;
@@ -129,13 +130,13 @@ body{
     height: 88px;
 }
 .offer{
-    
+    margin-top: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 150px;
-    background-color: rgba(229, 84, 115, 0.2);
-    height: 620px;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 420px;
 }
 .offer-text{
     text-align: center;
@@ -169,7 +170,7 @@ body{
 .flower img{
     width: 280px;
     height: 320px;
-    margin: 12px;
+    margin: 13px;
 }
 .flower{
     display: flex;
