@@ -110,7 +110,7 @@ body{
     justify-content: space-around;
     padding: 50px;
     text-align: center;
-    width: 1050px;
+    width: 917px;
     margin: auto;
     margin-bottom: 100px;
 }
@@ -128,7 +128,7 @@ body{
 }
 .offer-text h3{
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 40px;
 }
 .offer-text .p{
     margin-bottom: 20px;
@@ -138,5 +138,25 @@ body{
 }
 .offer-img img{
     width: 250px;
+}
+.insta{
+    margin-top: 128px;
+    text-align: center;
+}
+.insta h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.insta .p{
+    margin-bottom: 20px;
+}
+.flower img{
+    width: 300px;
+    height: 340px;
+    margin: 12px;
+}
+.flower{
+    display: flex;
+    justify-content: center;
 }
 
